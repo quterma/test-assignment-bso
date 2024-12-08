@@ -1,0 +1,21 @@
+# Node.js
+node_modules
+dist
+.env
+.vscode
+.idea
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled files
+*.tsbuildinfo
+
+# Monorepo subfolders
+packages/*/node_modules
+packages/*/dist
+packages/*/.turbo
+packages/*/.cache
